@@ -46,9 +46,9 @@ else {
     exit();
   }
 
-  $user = 'u52855';
-  $pass = '5599036';
-  $db = new PDO('mysql:host=localhost;dbname=u52855', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  $user = 'u52846';
+  $pass = '1231253';
+  $db = new PDO('mysql:host=localhost;dbname=u52846', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
   $stmt = $db->prepare('SELECT user_id FROM users WHERE (login = ?) AND (password = ?) ');
   $stmt->execute([$login, $password]);
 
