@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 98vh;
+    background-color: #444c4f;
+    opacity: 1;
+    background-image:  radial-gradient(#0089fc 1.1px, transparent 1.1px), radial-gradient(#0089fc 1.1px, #444c4f 1.1px);
+    background-size: 44px 44px;
+    background-position: 0 0,22px 22px;
+    font-family: Montserrat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+.form-content {
+    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
