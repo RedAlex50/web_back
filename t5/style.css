@@ -191,11 +191,19 @@ select {
 
 #header {
     position: absolute;
-    text-align: center;
+    text-align: right;
     top: 0px;
     left: 0px;
     right: 0px;
     padding: 10px;
     font-size: 20px;
-    background-color: #00000054;
+    background-color: #00000010;
+}
+
+#header a {
+    text-decoration: none;
+    background-color: #008bfc57;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 2px;
 }
