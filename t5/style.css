@@ -13,6 +13,7 @@ body {
 }
 
 form {
+    width: 35vw;
     display: flex;
     flex-direction: column;
     padding: 30px;
@@ -20,6 +21,12 @@ form {
     background: rgba(0, 0, 0, 0.8);
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width: 800px) {
+    form {
+        width: 95%;
+    }
 }
 
 .form-item {
@@ -31,7 +38,7 @@ form {
 }
 
 .line {
-    width: 285px;
+    width: 90%;
     height: 30px;
     font-size: 16px;
     margin-bottom: 10px;
@@ -63,6 +70,11 @@ form {
     -webkit-transition: 0.2s ease all;
 }
 
+.select-date, .input-radio {
+    background-color: #444c4f;
+    color: #ffffff;
+}
+    
 
 h1 {
     text-align: center;

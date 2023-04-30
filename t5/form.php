@@ -42,7 +42,7 @@
       <div class="form-item">
         <div class="date">
           <span <?php if ($errors['year1'] || $errors['year2']) {print 'class="error"';} ?>>Год рождения:</span>
-          <select name="year">
+          <select name="year" class="select-date">
             <?php 
               for ($i = 2023; $i >= 1922; $i--) {
                 if ($i == $values['year']) {
