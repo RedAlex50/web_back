@@ -203,11 +203,11 @@ select {
 
 #header a {
     color: black;
-    font-weight: bold;
     font-size: larger;
     text-decoration: none;
-    background-color: #008bfc57;
-    border: 1px solid black;
+    border: 1px solid #0089fc;
+    border-top: none;
+    border-bottom: none;
     border-radius: 4px;
-    margin: 20px;
+    padding: 3px;
 }
