@@ -205,9 +205,11 @@ select {
     color: black;
     font-size: larger;
     text-decoration: none;
-    border: 1px solid #0089fc;
+    border: 1px solid #00b5fc;
     border-top: none;
     border-bottom: none;
     border-radius: 4px;
     padding: 3px;
+    margin-top: 5px;
+    background-color: #ffffff25;
 }
