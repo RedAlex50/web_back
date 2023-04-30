@@ -71,6 +71,19 @@ form {
     -webkit-transition: 0.2s ease all;
   }
 
+.line:focus ~ .labelText,
+.line:valid ~ .labelText {
+    left: 0px;
+    top: -30px;
+    font-size: 20px;
+    color: white;
+}
+
+.select-date, .input-radio {
+    background-color: #444c4f;
+    color: #ffffff;
+}
+    
 
 h1 {
     text-align: center;
@@ -90,7 +103,6 @@ p {
 .date {
     display: flex;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
 .date span {
