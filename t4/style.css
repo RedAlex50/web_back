@@ -40,10 +40,9 @@ form {
 
 
 .line {
-    width: 285px;
+    width: 90%;
     height: 30px;
     font-size: 16px;
-    margin-bottom: 10px;
     background: transparent;
     border: none;
     border-bottom: 2px solid white;
@@ -53,7 +52,7 @@ form {
     padding-left: 5px;
     padding-bottom: 5px;
     display: block;
-  }
+}
   
   .line:focus {
     outline: none;
