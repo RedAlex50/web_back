@@ -203,10 +203,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     setcookie('checkboxContract_error', '', 100000);
   }
 
-  $user = 'u52855';
-  $pass = '5599036';
-  $db = new PDO('mysql:host=localhost;dbname=u52855', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
-
+  $user = 'u52846';
+  $pass = '1231253';
+  $db = new PDO('mysql:host=localhost;dbname=u52846', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+  
   try {
     $stmt = $db->prepare("INSERT INTO application (name, email, year, sex, hand, biography) VALUES (?, ?, ?, ?, ?, ?)");
     $stmt->execute([$name, $email, $year, $sex, $hand, $biography]);
