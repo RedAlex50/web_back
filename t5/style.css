@@ -211,5 +211,8 @@ select {
     border-radius: 4px;
     padding: 3px;
     margin-top: 5px;
-    background-color: #ffffff25;
+    background: #00b5fc; /* Old browsers */
+    background: -moz-linear-gradient(left, #00b5fc 0%, #d6d6d6 15%, #d6d6d6 85%, #00b5fc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #00b5fc 0%,#d6d6d6 15%,#d6d6d6 85%,#00b5fc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #00b5fc 0%,#d6d6d6 15%,#d6d6d6 85%,#00b5fc 100%);
 }
