@@ -210,9 +210,9 @@ select {
     border-bottom: none;
     border-radius: 4px;
     padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
     margin-top: 5px;
-    background: #00b5fc; /* Old browsers */
-    background: -moz-linear-gradient(left, #00b5fc 0%, #d6d6d6 15%, #d6d6d6 85%, #00b5fc 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #00b5fc 0%,#d6d6d6 15%,#d6d6d6 85%,#00b5fc 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #00b5fc 0%,#d6d6d6 15%,#d6d6d6 85%,#00b5fc 100%);
+    background: #00b5fc; 
+    background: linear-gradient(to right, #00b5fc 0%,#d6d6d600 10%,#d6d6d600 90%,#00b5fc 100%);
 }
