@@ -185,7 +185,8 @@ select {
 }
 
 .login {
-    color: green;
+    color: rgb(0, 206, 0);
+    font-size: larger;
     margin-bottom: 24px;
 }
 
@@ -201,9 +202,12 @@ select {
 }
 
 #header a {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
     text-decoration: none;
     background-color: #008bfc57;
     border: 1px solid black;
-    border-radius: 2px;
-    margin: 2px;
+    border-radius: 4px;
+    margin: 20px;
 }
