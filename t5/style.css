@@ -202,12 +202,12 @@ select {
 }
 
 #header a {
-    color: black;
+    color: rgb(0, 206, 0);
     font-size: larger;
     text-decoration: none;
     border: 1px solid #00b5fc;
-    border-top: 1px solid #00b5fc6e;
-    border-bottom: 1px solid #00b5fc6e;
+    border-top: 1px solid #00b5fc05;
+    border-bottom: 1px solid #00b5fc05;
     border-radius: 4px;
     padding: 3px;
     padding-left: 7px;
