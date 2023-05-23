@@ -42,7 +42,7 @@
                 <th>Преобладающая рука</th>
                 <th>Суперсила</th>
                 <th>Биография</th>
-                <th><a href="truncate.php"><img src="Сбросить базу данных" width="25" height="25" alt="truncate"></a></th>
+                <th><a href="truncate.php">Сбросить базу данных</a></th>
             </tr>
             <?php
                 foreach ($values as $value) {
@@ -124,14 +124,14 @@
                     echo    '<td>';
                 if (empty($_COOKIE['edit']) || ($_COOKIE['edit'] != $value['application_id'])) {
                     echo        '<div class="column-item">
-                                    <input name="edit'.$value['application_id'].'" type="button" width="25" height="25" alt="submit"/> Изменить
+                                    <input name="edit'.$value['application_id'].'" type="button" value="Изменить" width="25" height="25" alt="submit"/> 
                                 </div>
                                 <div class="column-item">
-                                    <input name="clear'.$value['application_id'].'" type="ibutton width="25" height="25" alt="submit"/> Очистить
+                                    <input name="clear'.$value['application_id'].'" type="button" value="Очистить" width="25" height="25" alt="submit"/> 
                                 </div>';
                 } else {
                     echo        '<div class="column-item">
-                                    <input name="save'.$value['application_id'].'" type="button" width="25" height="25" alt="submit"/> Сохранить
+                                    <input name="save'.$value['application_id'].'" type="button" value="Сохранить" width="25" height="25" alt="submit"/> 
                                 </div>';
                 }
                     echo    '</td>';
