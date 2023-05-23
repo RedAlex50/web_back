@@ -19,7 +19,6 @@ table {
 }
 
 td, th {
-    padding: 8px;
     border: 2px solid black; 
 }
 
@@ -29,18 +28,11 @@ th {
 
 textarea {
     resize: none;
-    padding: 10px;
 }
 
 select {
-    width: 125px;
-    padding: 10px;
     text-align: center;
     font-size: large;
-}
-
-.column-item {
-    padding: 10px 0 10px 0;
 }
 
 .abilities {
@@ -54,7 +46,6 @@ select {
 }
 
 caption {
-    padding: 25px;
     font-size: x-large;
 }
 
