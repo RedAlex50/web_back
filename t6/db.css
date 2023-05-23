@@ -9,12 +9,12 @@ body {
     background-image:  radial-gradient(#0089fc 1.1px, transparent 1.1px), radial-gradient(#0089fc 1.1px, #444c4f 1.1px);
     background-size: 44px 44px;
     background-position: 0 0,22px 22px;
-    font-family: Montserrat;
 }
 
 table { 
     border-collapse: collapse; 
     text-align: center;
+    background: #464646ad;
 }
 
 td, th {

@@ -42,7 +42,7 @@
                 <th>Преобладающая рука</th>
                 <th>Суперсила</th>
                 <th>Биография</th>
-                <th><a href="truncate.php"><img src="https://cdn-icons-png.flaticon.com/512/860/860829.png" width="25" height="25" alt="truncate"></a></th>
+                <th><a href="truncate.php"><img src="Сбросить базу данных" width="25" height="25" alt="truncate"></a></th>
             </tr>
             <?php
                 foreach ($values as $value) {
@@ -124,14 +124,14 @@
                     echo    '<td>';
                 if (empty($_COOKIE['edit']) || ($_COOKIE['edit'] != $value['application_id'])) {
                     echo        '<div class="column-item">
-                                    <input name="edit'.$value['application_id'].'" type="image" src="https://static.thenounproject.com/png/2185844-200.png" width="25" height="25" alt="submit"/>
+                                    <input name="edit'.$value['application_id'].'" type="button" width="25" height="25" alt="submit"/> Изменить
                                 </div>
                                 <div class="column-item">
-                                    <input name="clear'.$value['application_id'].'" type="image" src="https://cdn-icons-png.flaticon.com/512/860/860829.png" width="25" height="25" alt="submit"/>
+                                    <input name="clear'.$value['application_id'].'" type="ibutton width="25" height="25" alt="submit"/> Очистить
                                 </div>';
                 } else {
                     echo        '<div class="column-item">
-                                    <input name="save'.$value['application_id'].'" type="image" src="https://cdn-icons-png.flaticon.com/512/84/84138.png" width="25" height="25" alt="submit"/>
+                                    <input name="save'.$value['application_id'].'" type="button" width="25" height="25" alt="submit"/> Сохранить
                                 </div>';
                 }
                     echo    '</td>';
