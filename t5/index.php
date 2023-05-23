@@ -142,7 +142,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
         exit();
     }
 
-    printf('<div id="header">Вход с логином %s, uid %d<br><a href=logout.php>Выйти</a></div>', $_SESSION['login'], $_SESSION['uid']);
+    printf('<div id="header">Вход с логином %s, uid %d<br><a href=logout.php>Выйти</a></div>', $_SESSION['login'], $_SESSION['user_id']);
   }
   include('form.php');
 } else {
