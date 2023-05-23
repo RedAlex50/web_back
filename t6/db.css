@@ -1,5 +1,4 @@
 body {
-    min-height: 98vh;
     background-color: #444c4f;
     opacity: 1;
     background-image:  radial-gradient(#0089fc 1.1px, transparent 1.1px), radial-gradient(#0089fc 1.1px, #444c4f 1.1px);
@@ -11,6 +10,7 @@ table {
     border-collapse: collapse; 
     background: rgba(0, 0, 0, 0.8);
     color: white;
+    text-align: center;
 }
 
 td, th {
