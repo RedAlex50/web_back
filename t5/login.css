@@ -31,3 +31,8 @@ form {
 .msg {
     color: white;
 }
+
+a button {
+    color: white;
+    text-decoration: none;
+}

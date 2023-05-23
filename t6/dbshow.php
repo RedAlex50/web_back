@@ -42,7 +42,7 @@
                 <th>Преобладающая рука</th>
                 <th>Суперсила</th>
                 <th>Биография</th>
-                <th><a href="truncate.php"><button value="Сбросить базу данных"></button></a></th>
+                <th><a href="truncate.php"><button>Сбросить базу данных</button></a></th>
             </tr>
             <?php
                 foreach ($values as $value) {
