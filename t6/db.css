@@ -21,11 +21,10 @@ td, th {
     color: white;
     padding: 8px;
     border: 1px solid black; 
-    background: #ffffff;
 }
 
 th {
-    background: #ffffff; 
+    background: #ffffff17; 
 }
 
 textarea {
