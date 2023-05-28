@@ -124,10 +124,10 @@
                     echo    '<td>';
                 if (empty($_COOKIE['edit']) || ($_COOKIE['edit'] != $value['application_id'])) {
                     echo        '<div class="column-item">
-                                    <input name="edit'.$value['application_id'].'" type="button" value="Изменить" width="25" height="25" alt="submit"/> 
+                                    <input name="edit'.$value['application_id'].'" type="image" src="https://static.thenounproject.com/png/2185844-200.png" width="25" height="25" alt="submit"/>
                                 </div>
                                 <div class="column-item">
-                                    <input name="clear'.$value['application_id'].'" type="button" value="Очистить" width="25" height="25" alt="submit"/> 
+                                    <input name="clear'.$value['application_id'].'" type="image" src="https://cdn-icons-png.flaticon.com/512/860/860829.png" width="25" height="25" alt="submit"/>
                                 </div>';
                 } else {
                     echo        '<div class="column-item">
