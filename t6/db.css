@@ -8,7 +8,7 @@ body {
 
 table { 
     border-collapse: collapse; 
-    background: rgba(0, 0, 0, 0.87);
+    background: rgba(0, 0, 0, 0.6);
     color: white;
     text-align: center;
 }
