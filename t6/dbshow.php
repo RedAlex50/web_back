@@ -42,7 +42,7 @@
                 <th>Преобладающая рука</th>
                 <th>Суперсила</th>
                 <th>Биография</th>
-                <th><a href="truncate.php"><button>Сбросить базу данных</button></a></th>
+                <th><a href="truncate.php"><img src="https://cdn-icons-png.flaticon.com/512/860/860829.png" width="25" height="25" alt="truncate"></a></th>
             </tr>
             <?php
                 foreach ($values as $value) {
